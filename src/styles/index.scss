@@ -1,13 +1,51 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    border: 2.5px outset white;  
+    align-items: center; 
+}
 
-*/
+section{
+    background: black;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    color: white;
+    margin: 2rem;
+}
+
+span{
+    font-size: 10rem;
+    padding: 1rem;  
+}
+
+
+body{
+    background: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);  
+    background-size: 300%;
+    animation: changecolor 5s ease infinite; 
+}
+
+@keyframes changecolor {
+    0% {background-position: 0% 50%;}
+    50%{background-position: 75% 50%}
+    100%{background-position: 100% 60%}
+}
+
+.btn{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+button{
+    width: 5rem;
+    height: 4rem;
+}
