@@ -24,6 +24,8 @@ const Counter = props => {
 	);
 };
 
+
+
 Counter.propTypes = {
 	time: PropTypes.number
 };
