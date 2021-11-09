@@ -21,6 +21,7 @@ const Counter = props => {
 				<span>{cont}</span>
 			</section>
 		</div>
+		
 	);
 };
 
