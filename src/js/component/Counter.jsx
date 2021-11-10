@@ -21,11 +21,8 @@ const Counter = props => {
 				<span>{cont}</span>
 			</section>
 		</div>
-		
 	);
 };
-
-
 
 Counter.propTypes = {
 	time: PropTypes.number
